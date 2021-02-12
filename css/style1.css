@@ -1,0 +1,36 @@
+#about {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    animation-duration: 3s;
+    animation-name: moving;
+}
+@keyframes moving {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+#contact {
+    font-size: 20px;
+}
+#electro {
+    border-radius: 50%;
+    border: 5px solid #e46142;
+}
+#electro:hover {
+    box-shadow: 0 0 10px 2px rgba(0, 140, 186, 0.5);
+}
+.bg-cover {
+    background-attachment: static;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row {
+    color: #000;
+}
